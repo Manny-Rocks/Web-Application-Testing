@@ -6,7 +6,7 @@ import './App.css';
 
 
 function App() {
-  const [strikes, setStrikes] = useState(0);
+const [strikes, setStrikes] = useState(0);
 const [balls, setBalls] = useState(0);
 
 const reset = () => {
