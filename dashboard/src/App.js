@@ -4,7 +4,9 @@ import Dashboard from './components/Dashboard';
 import './App.css';
 
 
-const [strikes, setStrikes] = useState(0);
+
+function App() {
+  const [strikes, setStrikes] = useState(0);
 const [balls, setBalls] = useState(0);
 
 const reset = () => {
@@ -12,7 +14,6 @@ const reset = () => {
   setBalls(0);
 }
 
-function App() {
   return (
     <div>
       <h1>SCOREBOARD</h1>
